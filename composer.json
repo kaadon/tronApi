@@ -1,0 +1,55 @@
+{
+    "name": "kaadon/tronapi",
+    "description": "A PHP API for interacting with Tron (Trx)",
+    "license": "MIT",
+    "type":   "library",
+    "homepage": "https://github.com/kaadon/tronApi",
+    "authors": [
+        {
+            "name": "Shamsudin Serderov",
+            "email": "kaadon.com@gmail.com"
+        }
+    ],
+    "keywords": [
+        "kaadon",
+        "tron-lib",
+        "tron-php",
+        "tronapi",
+        "tron-api",
+        "tronservice",
+        "tron-service",
+        "tron-rest-api"
+    ],
+
+    "require": {
+        "php": ">=8.1",
+        "ext-bcmath": "*",
+        "ext-json": "*",
+        "comely-io/data-types": "^1.0",
+        "guzzlehttp/guzzle": "^7.6",
+        "kaadon/web3.php": "^1.0",
+        "kornrunner/secp256k1": "^0.2.0",
+        "simplito/elliptic-php": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaadon\\TronAPI\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Kaadon\\TronAPI\\Test\\": "tests"
+        }
+    },
+
+    "config": {
+        "sort-packages": true
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
