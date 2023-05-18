@@ -28,3 +28,4 @@ composer.lock
 examples/index2.php
 vendor/
 .idea
+/.phpunit.result.cache
